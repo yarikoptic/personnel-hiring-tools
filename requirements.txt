@@ -1,0 +1,8 @@
+click >= 7.0
+click-loglevel ~= 0.2
+psutil ~= 5.9
+pyautogui
+pyyaml
+selenium ~= 4.2.0
+
+# Non-Python requirement: chromedriver

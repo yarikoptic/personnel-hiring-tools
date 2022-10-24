@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eu
+cd $(dirname $0)
+source venvs/dev3/bin/activate
+
+datalad run -m "Fetched data about new candidates" python get_applicants.py -i positions.yaml --headless -l warning
